@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accès WhatsApp</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* BOÎTE PRINCIPALE */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+}
+
+/* TITRE */
+h1 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+/* TEXTE */
+.info {
+    color: blue;
+    font-size: 14px;
+}
+
+.status {
+    color: orange;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* BOUTONS */
+.btn {
+    display: block;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.green { background: #25D366; }
+.blue { background: #0088cc; }
+.orange { background: #ff9800; }
+
+/* FOOTER */
+.footer {
+    color: green;
+    font-size: 13px;
+    margin-top: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Connexion disponible</h1>
+
+    <p class="info">Clique ci-dessous pour accéder aux options</p>
+
+    <p class="status">État : ACTIVE</p>
+
+    <a href="https://wa.me/qr/JIB3SMOJM35UG1" class="btn green">
+        Clique ici pour me contacter
+    </a>
+
+    <a href="https://chat.whatsapp.com/JP5UTPjIWrT4CZTR9Vki1b?mode=gi_t" class="btn blue">
+        Rejoindre le groupe WhatsApp
+    </a>
+
+    <a href="https://whatsapp.com/channel/0029VbCzfJ74CrfqbZoZRo2x" class="btn orange">
+        Voir la chaîne WhatsApp
+    </a>
+
+    <p class="footer">
+        Merci de me contacter pour bien profiter de cette connexion 🌐
+    </p>
+
+</div>
+
+</body>
+</html>
